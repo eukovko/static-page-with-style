@@ -1,0 +1,58 @@
+.header {
+    background: #21222A;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 1 auto;
+}
+
+.header .title {
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.05em;
+    color: #61DAFB;
+    align-items: center;
+    margin-right: auto;
+}
+
+.header .subTitle {
+    display: flex;
+    align-items: center;
+}
+
+
+.header .menu {
+    letter-spacing: 0em;
+    text-align: right;
+    color: white;
+}
+.header .name {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: right;
+    font-size: x-large;
+    color: white;
+    padding-right: 30px;
+}
+
+.header .logo {
+    width: 50px;
+    height: 50px;
+    padding-left: 20px;
+}
+.header .menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    color: white;
+
+}
+.header .menu > li {
+    padding-right: 20px;
+}
